@@ -1,0 +1,28 @@
+{
+  "name": "example_sprites_gulp",
+  "version": "1.0.0",
+  "description": "Just a little demo of sprite sheets with gulp - front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laurentBsss/example_sprites_gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "test",
+    "sprite",
+    "css",
+    "sass",
+    "front-end",
+    "bootstrap"
+  ],
+  "author": "laurentBsss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laurentBsss/example_sprites_gulp/issues"
+  },
+  "homepage": "https://github.com/laurentBsss/example_sprites_gulp"
+}
