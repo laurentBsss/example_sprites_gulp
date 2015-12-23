@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/laurentBsss/example_sprites_gulp/issues"
   },
-  "homepage": "https://github.com/laurentBsss/example_sprites_gulp"
+  "homepage": "https://github.com/laurentBsss/example_sprites_gulp",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-filesize": "0.0.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.1.1"
+  }
 }

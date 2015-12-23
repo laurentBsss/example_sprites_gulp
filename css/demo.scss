@@ -1,0 +1,87 @@
+//SCSS
+
+// styles.scss
+/* hello test 1 
+*oui oui 
+*/
+.testing {
+  width: percentage(5/7);
+}
+
+a{
+	width: 2200px;
+	&:hover{
+		color:blue;
+	}
+	b{color:red;}
+}
+
+/* 1st anim */
+.mini_anim{
+  position: relative;
+  width: 60px; /* width = 420 /nbr steps */
+  height: 95px;  /* height of the image */
+  background: url('../img/mario.jpg')  center no-repeat;
+  -webkit-animation: marioWalk .8s steps(7) infinite reverse ; /* Chrome, Safari, Opera */
+  animation: marioWalk .8s  steps(7) infinite; /* Standard syntax */
+}
+
+@keyframes marioWalk {
+    from { background-position: 0 0; 
+             left:0px; 
+         }
+    to { background-position: -420px 0; 
+         left:300px; 
+       }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes marioWalk {
+    from { background-position: 0 0; 
+             left:0px; 
+         }
+    to { background-position: -420px 0;
+         left:300px; 
+       }
+}
+
+
+/* 2nd anim */
+.mini_anim2{
+  width: 160px; /* width = 480 /nbr steps */
+  height: 160px;  /* height of the image */
+  background: url('../img/megaman.png')  center no-repeat;
+  -webkit-animation: walk .5s steps(3) infinite; /* Chrome, Safari, Opera */
+  animation: walk .5s  steps(3) infinite; /* Standard syntax */
+}
+
+@keyframes walk {
+  from { background-position: 0 0; }
+  to { background-position: -480px 0; }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes walk {
+  from { background-position: 0 0; }
+  to { background-position: -480px 0px; }
+}
+
+/* 3nd anim */
+.mini_anim3{
+  width: 106px; /* width = 116-10 /nbr steps */
+  height: 142px;  /* height of the image */
+  background: url('../img/goku.png')  center no-repeat;
+  -webkit-animation: kame .8s steps(7) infinite; /* Chrome, Safari, Opera */
+  animation: kame .8s  steps(5) infinite; /* Standard syntax */
+}
+
+@keyframes kame {
+  from { background-position: 0 0; }
+  to { background-position: -580px 0; }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes kame {
+  from { background-position: 0 0; }
+  to { background-position: -580px 0; }
+}
